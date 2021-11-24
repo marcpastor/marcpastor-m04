@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action=”index.html” method=”get”>
+        <label for ="fname">Introduzca su nombre:</label><br>
+        <input type="text" id="fname" value="Bebé"><br>
+        <label for ="lname">Introduzca su apellido:</label><br>
+        <input type="text" id="lname" value="Bebesato"><br><br>
+        <input type ="email" value="BebitoBebesato@gmail.com">Email
+        <input type="password" value = "a12345">Contraseña<br><br>
+        Cual es tu nacionalidad?
+        <select name="Pais">
+            <option value="España">Española
+            <option value="Portugal">Portuguesa
+        </select>
+        <br><br>
+        Eres niño o niña?<br>
+        <input type = "radio" name="genero">Niño <br>
+        <input type = "radio" name="genero">Niña<br>
+        <input type= "radio" name="genero"> Soy mayor, pero también quiero regalos<br>
+        <br><br>
+        Cual es tu Rey Mago favorito?<br>
+        <input type="radio" name="rey">Melchor<br>
+        <input type="radio" name="rey">Gaspar<br>
+        <input type="radio" name="rey">Baltasar<br>
+        <input type="radio" name = "rey">Soy republicano<br>
+        <input type="radio" name="rey">Soc català, jo només faig cagar el Tió<br><br>
+
+        Has sido bueno este año?<br>
+        <input type="radio" name="bueno">Sí<br>
+        <input type="radio" name="bueno">No<br><br>
+
+        Cuantos regalos crees que mereces?<br>
+        <select name="regalos">
+        <option value="-3">He sido un poco gamberro, me conformo entre 1 y 3
+        <option value="-5">En general he sido bueno, entre 3 y 5
+        <option value="-10">He hecho siempre los deberes, entre 5 y 10
+        <option value="+10">Soy un puto mimao, dadme todos los regalos a mi (+10)
+        </select><br><br><br>
+        <label for ="regalo">Cual es el regalo que más quieres?</label><br>
+        <input type="text" value="Ropa" readonly><br><br>
+        <label for ="regalo">En el improbable caso de que no quieras ropa, que regalo querrías?</label><br>
+        <input type="text" placeholder="Más ropa" required><br><br>
+
+        Entre estos regalos, cuales elegirías?<br>
+        <input type="checkbox" name="regalo">Una Play Station 5<br>
+        <input type="checkbox" name="regalo">Un tiranosaurio Rex gigante<br>
+        <input type="checkbox" name="regalo">Una capa medieval (las capas molan)<br>
+        <input type="checkbox" name = "regalo">Que nuestra querida profesora Alicia nos diera las clases de todas las asignaturas porque es la mejor profesora del mundo<br>
+    <br><br><br>
+      
+
+        <input type="button" value="No sirvo para nada">
+        <input type= "submit" value="Enviar a los reyes"><br><br>
+        <input type="reset" value="Si me picas, exploto"> Es un reset
+    </form>
+</body>
+</html>
